@@ -1,0 +1,10 @@
+[Unit]
+Description=yocoin
+
+[Service]
+ExecStart=geth 
+WorkingDirectory=/etc/yocoin
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
