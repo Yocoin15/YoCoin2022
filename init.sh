@@ -1,0 +1,1 @@
+geth --identity "YoCoin Masternode" --networkid 100822 --nodiscover init genesis.json

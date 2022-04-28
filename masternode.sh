@@ -1,0 +1,1 @@
+geth --identity "YoCoin Masternode" --miner.etherbase 0xe8124e76f3c949f10827421b78ccd9466d10d748 --nodiscover --http --mine --miner.threads 1 --http.corsdomain "*" --http.api "db, eth, net, web3, personal" --http.vhosts "*" --networkid 100822
