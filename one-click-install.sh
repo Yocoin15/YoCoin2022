@@ -7,6 +7,6 @@ cd /etc/yocoin
 wget https://raw.githubusercontent.com/Yocoin15/YoCoin2022/main/genesis.json
 geth init genesis.json
 wget https://raw.githubusercontent.com/Yocoin15/YoCoin2022/main/yocoinnode.service
-sudo cp yocoin.service /etc/systemd/system
-sudo systemctl enable yocoin.service
-sudo systemctl start yocoin.service
+sudo cp yocoinnode.service /etc/systemd/system
+sudo systemctl enable yocoinnode.service
+sudo systemctl start yocoinnode.service

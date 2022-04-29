@@ -2,7 +2,7 @@
 Description=yocoin
 
 [Service]
-ExecStart=geth --networkid 100822 --bootnodes enode://ccfaea7ea56c7a7691d72791c1a464fb393395a81cad3a47483a226cfb4384886d4d6e2fec1eafdd3da431754d1dba28d70ee843071946f8bb2ac15dfd5b09d4@146.190.230.86:30303
+ExecStart=geth --networkid 100822 --bootnodes "enode://ccfaea7ea56c7a7691d72791c1a464fb393395a81cad3a47483a226cfb4384886d4d6e2fec1eafdd3da431754d1dba28d70ee843071946f8bb2ac15dfd5b09d4@146.190.230.86:30303, enode://064cb05b94f2d21b3bf355c8b3116d1ff7d2232745b97e14a4c9fbd1bfd21b4ca4780d48615555c8c0d64826fcf3967cae4451622b94f28f6690cce47c30dab8@127.0.0.1:30303"
 WorkingDirectory=/etc/yocoin
 Restart=always
 
