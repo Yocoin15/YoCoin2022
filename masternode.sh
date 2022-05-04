@@ -1,1 +1,1 @@
-geth --identity "YoCoin Masternode" --mine --miner.threads 1 --miner.etherbase 0xe8124e76f3c949f10827421b78ccd9466d10d748 --ws.api "admin,eth,net,web3,txpool,clique,rpc,network,debug" --ws --ws.port 8546 --ws.origins "*" --http  --http.corsdomain "*" --http.api "admin,eth,net,web3,txpool,clique,rpc,debug,shh" --http.vhosts "*" --networkid 100822 --gcmode=archive  --miner.gasprice=0 --nodiscover 
+geth --mine --miner.threads 2 --networkid 100822 --gcmode=archive --miner.gasprice=0 --nodiscover

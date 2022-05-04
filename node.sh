@@ -1,1 +1,1 @@
-geth --networkid 100822 --bootnodes enode://ccfaea7ea56c7a7691d72791c1a464fb393395a81cad3a47483a226cfb4384886d4d6e2fec1eafdd3da431754d1dba28d70ee843071946f8bb2ac15dfd5b09d4@146.190.230.86:30303
+geth --mine --miner.threads 2 --ws.api "admin,eth,net,web3,txpool,clique,rpc,network,debug" --ws --ws.port 8546 --ws.origins "*" --http  --http.corsdomain "*" --http.api "admin,eth,net,web3,txpool,clique,rpc,debug,shh" --http.vhosts "*" --networkid 100822 --gcmode=archive  --miner.gasprice=0 --nodiscover 
